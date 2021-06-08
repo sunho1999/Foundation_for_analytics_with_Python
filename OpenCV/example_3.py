@@ -8,7 +8,7 @@ logo = image[20:150,70:200]
 cv2.imshow('Image',logo)
 cv2.waitKey(0)
 
-#ROI 단위로 이미지 복사하기d
+#ROI 단위로 이미지 복사하기
 #슬라이싱한 이미지 픽셀 값에 넣기
 image[0:130,0:130] = logo
 cv2.imshow('Image',image)
